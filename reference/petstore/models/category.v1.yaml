@@ -1,0 +1,16 @@
+title: Category
+type: object
+description: ''
+x-tags:
+  - Pets
+properties:
+  id:
+    type: integer
+    format: int64
+  name:
+    type: string
+  description:
+    type: string
+required:
+  - id
+  - name
